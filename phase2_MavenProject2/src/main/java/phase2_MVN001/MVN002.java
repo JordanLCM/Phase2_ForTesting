@@ -12,7 +12,7 @@ public class MVN002 {
 	@Test
 	public void testM011() {
 		System.out.println("This will fail!");
-// 		Assert.fail();
+//		Assert.fail();
 	}
 
 	@Test

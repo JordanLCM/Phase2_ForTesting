@@ -22,7 +22,7 @@ public class MVN001 {
 	@Test
 	public void testM002() {
 		System.out.println("Is this working?");
-// 		Assert.fail();
+//		Assert.fail();
 	}
 
 	@Test (dependsOnMethods = "testM001")

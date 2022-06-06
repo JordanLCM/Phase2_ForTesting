@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-06T15:01:14 SGT" name="Suite" finished-at="2022-06-06T15:01:20 SGT" duration-ms="5478">
+  <suite name="Suite" duration-ms="3566" started-at="2022-06-06T21:43:12 SGT" finished-at="2022-06-06T21:43:16 SGT">
     <groups>
     </groups>
-    <test started-at="2022-06-06T15:01:14 SGT" name="Test" finished-at="2022-06-06T15:01:20 SGT" duration-ms="5478">
+    <test name="Maven" duration-ms="3566" started-at="2022-06-06T21:43:12 SGT" finished-at="2022-06-06T21:43:16 SGT">
       <class name="phase2_MVN001.MVN001">
-        <test-method signature="testM001()[pri:0, instance:phase2_MVN001.MVN001@6bf0219d]" started-at="2022-06-06T15:01:14 SGT" name="testM001" finished-at="2022-06-06T15:01:20 SGT" duration-ms="5449" status="PASS">
+        <test-method status="PASS" signature="testM001()[pri:0, instance:phase2_MVN001.MVN001@ef309d]" name="testM001" duration-ms="3400" started-at="2022-06-06T21:43:12 SGT" finished-at="2022-06-06T21:43:16 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testM001 -->
+        <test-method status="PASS" signature="testM002()[pri:0, instance:phase2_MVN001.MVN001@ef309d]" name="testM002" duration-ms="0" started-at="2022-06-06T21:43:16 SGT" finished-at="2022-06-06T21:43:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM002 -->
+        <test-method status="PASS" signature="testM003()[pri:0, instance:phase2_MVN001.MVN001@ef309d]" name="testM003" duration-ms="0" started-at="2022-06-06T21:43:16 SGT" depends-on-methods="phase2_MVN001.MVN001.testM001" finished-at="2022-06-06T21:43:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM003 -->
       </class> <!-- phase2_MVN001.MVN001 -->
-    </test> <!-- Test -->
+      <class name="phase2_MVN001.MVN002">
+        <test-method status="PASS" signature="testM022()[pri:0, instance:phase2_MVN001.MVN002@24f60b]" name="testM022" duration-ms="0" started-at="2022-06-06T21:43:16 SGT" finished-at="2022-06-06T21:43:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM022 -->
+        <test-method status="PASS" signature="testM011()[pri:0, instance:phase2_MVN001.MVN002@24f60b]" name="testM011" duration-ms="0" started-at="2022-06-06T21:43:16 SGT" finished-at="2022-06-06T21:43:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM011 -->
+      </class> <!-- phase2_MVN001.MVN002 -->
+    </test> <!-- Maven -->
   </suite> <!-- Suite -->
 </testng-results>
