@@ -15,7 +15,7 @@ public class MVN002 {
 		Assert.fail();
 	}
 
-	@Test (dependsOnMethods = "testM011")
+	@Test
 	public void testM022() {
 		System.out.println("Passed!");
 	}
