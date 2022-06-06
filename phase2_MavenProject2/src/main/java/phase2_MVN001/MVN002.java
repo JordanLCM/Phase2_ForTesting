@@ -6,16 +6,16 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-// @Listeners(phase2_MVN001.MVN_Listeners002.class)
+@Listeners(phase2_MVN001.MVN_Listeners002.class)
 public class MVN002 {
 	
-// 	@Test
+	@Test
 	public void testM011() {
 		System.out.println("This will fail!");
 		Assert.fail();
 	}
 
-// 	@Test (dependsOnMethods = "testM011")
+	@Test (dependsOnMethods = "testM011")
 	public void testM022() {
 		System.out.println("Passed!");
 	}
